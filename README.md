@@ -1,2 +1,8 @@
-# odw-2024
-Materials from GW Open Data Workshop, 2024
+<p align="middle">
+<img src='share/ODW2024logo.jpeg' width=70%> 
+
+***
+
+# GW Open Data Workshop #7 (2024)
+
+This repo is under construction
