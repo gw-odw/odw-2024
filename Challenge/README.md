@@ -1,6 +1,6 @@
 # Data Challenge 
 
-### GW Open Data Workshop #6
+### GW Open Data Workshop #7
 
 Challenge activity for the Open Data Workshop 2023: https://gwosc.org/odw/odw2023/
 
