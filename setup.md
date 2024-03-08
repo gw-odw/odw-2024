@@ -98,7 +98,7 @@ This guide will walk you through the configuration of these environments with [C
 
 7. Move into the directory with the workshop git repo 
 
-    `cd odw-2023`
+    `cd odw-2024`
 
 8. Build a custom [jupyter kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) using the command 
 
