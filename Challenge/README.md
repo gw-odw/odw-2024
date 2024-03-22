@@ -11,7 +11,7 @@ Data files may be downloaded from [DCC G2300818](https://dcc.ligo.org/LIGO-G2300
 * [challenge3.gwf](https://dcc.ligo.org/public/0187/G2300818/001/challenge3.gwf)
 * [challenge3_2048hz.gwf](https://dcc.ligo.org/public/0187/G2300818/001/challenge3_2048hz.gwf)   <-- Downsampled version of Challenge 3 file
 
-Workshop participants may [submit solutions via thinkific](https://gw-odw.thinkific.com) as individuals or in teams of up to 3 people.  Solutions are due before 23:00 UTC of Apr 27, 2024. 
+Workshop participants may [submit solutions via thinkific](https://gw-odw.thinkific.com) as individuals or in teams of up to 3 people.  Solutions are due before 23:00 UTC of Apr 30, 2024. 
 
 Challenges are ordered by difficulty. Entries will be rewarded a number of
 points that scales with the difficulty of the challenge. 
