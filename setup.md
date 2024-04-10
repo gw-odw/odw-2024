@@ -69,7 +69,8 @@ This guide will walk you through the configuration of these environments with [C
 
 2. If you want to install the full [igwn-py39 environment](https://computing.docs.ligo.org/conda/environments/igwn-py39/), download the YML dependencies file for the IGWN website:
    * [YML file for Linux](https://computing.docs.ligo.org/conda/environments/linux/igwn-py39.yaml)
-   * [YML file for macOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py39.yaml)
+   * [YML file for Intel MacOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py39.yaml)
+   * [YML file for Apple Silicon MacOS](https://computing.docs.ligo.org/conda/environments/osx-arm64/igwn-py39.yaml)
 
    Instead, for the *light-weight* environment, you can durectly use the YML file from this repository:
    * [YAML in this repository](./environment.yml)
