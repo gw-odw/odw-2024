@@ -72,7 +72,7 @@ This guide will walk you through the configuration of these environments with [C
    * [YML file for Intel MacOS](https://computing.docs.ligo.org/conda/environments/osx/igwn-py39.yaml)
    * [YML file for Apple Silicon MacOS](https://computing.docs.ligo.org/conda/environments/osx-arm64/igwn-py39.yaml)
 
-   Instead, for the *light-weight* environment, you can durectly use the YML file from this repository:
+   Instead, for the *light-weight* environment, you can directly use the YML file from this repository:
    * [YAML in this repository](./environment.yml)
 
    **Note:** the name of the *light-weight* environment is **igwn-py39-lw** to distinguish it from the official one, `igwn-py39`. In the following steps, remember to add the "`-lw`" subfix to the name.
@@ -83,7 +83,7 @@ This guide will walk you through the configuration of these environments with [C
 
 4. Create the environment. <br/>
    
-   * Full igwn-py39 environment: `conda env create --file gwn-py39.yaml`
+   * Full igwn-py39 environment: `conda env create --file igwn-py39.yaml`
    * Light-weight environment: `conda env create --file environment.yml`
 
 
