@@ -43,8 +43,8 @@ NB_INSTALL_MSG = "Extra installation in {fname}: this notebook requires {module}
 errors = []
 error_code = 0
 
-env_file = "environment.yml"
-requirements_file = "requirements.txt"
+env_file = "../environment.yml"
+requirements_file = "../requirements.txt"
 
 # Read in the environment yaml file
 with open(env_file) as f:
@@ -91,7 +91,7 @@ for module, version in requirements.items():
 
 
 print("Checking content of notebooks")
-files = glob.glob("Tutorials/Day_*/*ipynb")
+files = glob.glob("../Tutorials/Day_*/*ipynb") + glob.glob("../Tutorials/Extension_topics/*ipynb")
 for fname in files:
     print(f"\tChecking {fname}")
     with open(fname, "r") as file:
@@ -100,9 +100,11 @@ for fname in files:
     for cell in content["cells"]:
         code = "\n".join(cell["source"])
         if "pip install " in code:
-            pip_installs = re.findall("([a-z]+==[0-9\.]+)", code)
+            pip_installs = re.findall("([a-z]+==[0-9\.]+)", code, flags=re.IGNORECASE) 
+            print()
             for element in pip_installs:
                 module, version = element.split("==")
+                module = module.lower()
                 if module in dependencies:
                     if dependencies[module] != version:
                         # Add message and position error code
